@@ -4,7 +4,8 @@ Documentation for the Lua feature available in the Phosphorus script
 # Creating a Lua file
 (This documentation assumes you are already familiar with the Lua programming language and developing scripts on executors)
 
-Your lua file must be located in workspace/Phosphorus/TC2/lua for the script to see them.
+Your lua file must be located in workspace/Phosphorus/TC2/lua for the script to see them.\
+You may also place your file inside workspace/Phosphorus/TC2/lua/autoexec, if you wish for it to be executed upon Phosphorus' execution\
 The file extension doesn't actually matter, the file can be .lua, .luau, .txt etc.
 
 To load your lua file, go to the Misc tab, and under the "Lua" groupbox select your script and execute it
