@@ -1,19 +1,19 @@
 # Phosphorus Lua Documentation
 Documentation for the Lua feature available in the Phosphorus script
 
-# Creating a Lua file
+# Creating LUAs
 (This documentation assumes you are already familiar with the Lua programming language and developing scripts on executors)
 
-Your lua file must be located in workspace/Phosphorus/TC2/lua for the script to see them.\
-You may also place your file inside workspace/Phosphorus/TC2/lua/autoexec, if you wish for it to be executed upon Phosphorus' execution\
+Your LUA must be located in workspace/Phosphorus/TC2/lua for the script to see them.\
+You may also place your LUA inside workspace/Phosphorus/TC2/lua/autoexec, if you wish for it to be executed upon Phosphorus' execution\
 The file extension doesn't actually matter, the file can be .lua, .luau, .txt etc.
 
-To load your lua file, go to the UI Settings tab, and under the "Lua" groupbox select your script and execute it.\
+To load your LUA, go to the UI Settings tab, and under the "Lua" groupbox select your script and execute it.\
 If all has gone well, you will see an "Executed script" message in the top left corner.
 If not, something has errored, please check the Roblox console (F9) for more info.
 
 # The Phosphorus API
-The Phosphorus Script has a few custom variables and functions that are used for communication between your lua scripts and the Phosphorus script.
+Phosphorus has a few custom variables and functions that are used for communicating between your LUAs and the Phosphorus script.
 These features are stored in your executor's custom global environment.
 
 ```lua
